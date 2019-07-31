@@ -1,0 +1,156 @@
+{
+    "header": {
+        "name": "Anika Szuppa",
+        "title": "Senior Frontend Engineer"
+    },
+    "address": {
+        "name": "Anika Szuppa",
+        "birthday": "*26.01.1982",
+        "street": "Wernerstrasse 1",
+        "city": "14109 Berlin",
+        "phone": "+49 17656966865"},
+    "links": [{
+            "link": "http://anika-reist.de/about/",
+            "title": "Website"},{
+            "link": "http://bit.ly/anikaszuppa",
+            "title": "LinkedIn"},{
+            "link": "https://github.com/anszu",
+            "title": "Github"},{
+            "link": "mailto:info@anikaszuppa.de",
+            "title": "Email"}],
+    "greeting": "I have worked as a Developer for more than 10 years now, most of them being focused on Frontend Development. For me being a Frontend Developer means to constantly adapt, learn and change methodologies, processes and tooling. This should be based on a very good understanding of the basic Frontend languages HTML, CSS and Javascript. To ensure the delivery of good code, I do my best to keep up-to-date with the latest specifications, best practices, task runners, test systems, bundlers, package managers, preprocesssors and frameworks.",
+    "tldr": {
+        "title": "Tldr;",
+        "content": [{
+            "title": "Experience",
+            "content": "10+ years" },{
+            "title": "Basics",
+            "content": "HTML, CSS (SASS, SCSS), JavaScript (ES6+)" },{
+            "title": "JS Frameworks",
+            "content": "React (2+ years)" },{
+            "title": "Testing",
+            "content": "Pytest, Jest, Storybook" },{
+            "title": "Methodologies",
+            "content": "BEM, TDD, Scrum, Kanban, Responsive Design, Accessibility, Progressive Enhancement, Performance Optimisation, SEO Optimisation" },{ 
+            "title": "Others",
+            "content": "Webpack, npm" },{
+            "title": "Backend technologies",
+            "content": "Python, Ruby" },{
+            "title": "Highest educational degree",
+            "content": "Degree in Business Informatics (UAS)" 
+            }]
+    },
+    "experience": {
+        "title": "Work history",
+        "img": "experience.png",
+        "content": [{
+            "title": "Senior Frontend Engineer",
+            "company": "DaWanda GmbH",
+            "logo": "dawanda-logo.gif",
+            "company_link": "https://de.wikipedia.org/wiki/DaWanda",
+            "location": "Berlin (Germany)",
+            "period": "May 2017 – May 2018",
+            "description": "With DaWanda I worked on a multi section platform mainly consisting of a Javascript (React), HTML, ERB, SASS frontend connected to a Ruby written backend. Besides integrating new components, the focus here was on converting a very fragmented legacy codebase into a maintainable, structured system.",
+            "achievements": {
+                "title": "Strengths and achievements:",
+                "content": ["Organisation of a small team, including planning and structuring of projects and tickets",
+                "Being part of the team that relaunched the DaWanda Homepage in a modular way integrating a new structure for coding and styling",
+                "Frontend integration of the <a href='https://www.emarsys.com/de/'>Emarsys</a> marketing engine via a self concipated and programmed React application using CSS Modules for styling and Storybook for TDD",
+                "Relaunch of the Sales Special integration, a multi parts mechanism that enabled the setup and display of a discount special throughout the complex DaWanda website, resulting in a 90% faster setup process"]
+            }},{
+            "title": "Frontend Developer",
+            "company": "ZEIT ONLINE GmbH",
+            "logo": "zeit-logo.png",
+            "company_link": "http://www.zeit.de",
+            "location": "Berlin/ Hamburg (Germany)",
+            "period": "June 2011 – May 2017",
+            "description": "During the six years I worked for ZEIT ONLINE, I participated in a lot of different information driven projects usually being handled by mixed frontend/ backend teams and managed within a Kanban or Scrum system. The technology stack I worked with, consisted most of the time of HTML, SASS, Bootstrap, Javascript, jQuery and Jinja for fronted development and XSLT, Phython and a bit of PHP for backend development. For building and testing I mostly worked with Grunt, Bower, Yeoman, Pytest, RequireJS and Selenium.",
+            "achievements": {
+                "title": "Strengths and achievements:",
+                "content": ["Being part of the team that relaunched ZEIT ONLINE in 2015, which made it one of the first major german news sites (~10 million users a month) that went fully responsive",
+                "Actively participating in the development of the award winning ZEIT Campus (<a href='http://www.zeit-campus.de' target='_blank'>www.zeit-campus.de</a>) and ZEIT Magazin websites (<a href='http://www.zeit-magazin.de' target='_blank'>www.zeit-magazin.de</a>), both fully responsive news platforms",
+                "General website maintenance including taking care of scripts, styles, video/ image integrations, tracking or advertisement",
+                "Planing and developing micro projects like standalone webapps using HTML5 mobile techniques such as data storage and handling of touch events"]
+            }},{
+            "title": "Freelance Webdeveloper",
+            "location": "Berlin (Germany)",
+            "period": "May 2010 – June 2011",
+            "description": "During one year of freelancing I handled different projects for different clients and started to concentrate on fronted development.",
+            "achievements": {
+                "title": "Strengths and achievements:",
+                "content": ["Planing of new projects for different clients",
+                "Programming and Designing of new websites with different frontend and backend techniques (eg. PHP and jQuery)"]
+            }},{
+            "title": "Developer/ Project Manager",
+            "company": "eBay classifieds",
+            "logo": "ebay-logo.png",
+            "company_link": "http://kleinanzeigen.ebay.de",
+            "location": "Berlin/ Milan (Germany/ Italy)",
+            "period": "May 2007 – May 2010",
+            "description": "With eBay classifieds I started as the first developer being located in Germany. When a complete new platform was launched for the german market I helped implementing new customer support mechanisms and toolsets as temporary Head of Customer Support. For six months I also joined the italian eBay classifieds team, which is located in Milan as a PHP backend developer.",
+            "achievements": {
+                "title": "Strengths and achievements:",
+                "content": ["Planning and developing of new site elements and functionalities based on PHP, MySQL, HTML, XML, CSS",
+                "Managing a small team of developers",
+                "Being temporary Head of Customer Support during a transformational phase",
+                "Working within an international and very quickly developing and changing company setting"]
+            }
+        }]
+    },
+    "other": {
+        "title": "Internships and other relevant work experience",
+        "content": [{
+            "title": "Part-time work",
+            "content": [
+                "12/2004 to 04/2006 <a href='http://www.hascon.com/'>Hascon</a>: PHP Webdevelopment"
+            ]},{
+            "title": "Internships",
+            "content": [
+                "04/2005 to 09/2005 <a href='http://www.104.6rtl.com/'>104.6 RTL</a>: CFML Webdevelopment, Community Design",
+                "01/2003 to 06/2003 PN Internet Solutions: Web Development"
+            ]}]
+    },
+    "education": {
+        "title": "Education",
+        "img": "education.png",
+        "content": [
+            {
+                "title": "Degree in Business Informatics (UAS)",
+                "institute": "Technical University of Applied Sciences Wildau",
+                "link": "http://en.wikipedia.org/wiki/Technical_University_of_Applied_Sciences_Wildau",
+                "date": "January 2006",
+                "location": "Wildau (Germany)"
+            },
+            {
+                "title": "Degree in Journalism (FJS)",
+                "institute": "Freie Journalistenschule",
+                "link": "https://de.wikipedia.org/wiki/Freie_Journalistenschule",
+                "date": "March 2016",
+                "location": "Berlin (Germany)"
+            }
+        ]
+    },
+    "softSkills": {
+        "title": "Soft Skills",
+        "img": "softSkills.png",
+        "content": [
+            "Native speaker of german, business fluency in english",
+            "Well able to cope with new requirements as already worked with a number of different teams in different settings",
+            "Good ability to work in teams as well as self organized",
+            "Like to work accurately but also with a good portion of hands on mentality",
+            "Keen to learn new skills, for example as a frequent visitor of frontend conferences",
+             "Happy to share knowledge and also looking forward to learn from others"
+        ]
+    },
+    "interests": {
+        "title": "Interests",
+        "img": "interests.png",
+        "content": "I am a passionate traveller and also like <a href='http://anika-reist.de/' target='_blank'>to blog about it</a>. In the past I did this as a Backpacker, nowadays in a more organised way to show the world to my little son. I lived and worked in different countries like New Zealand and Italy within international teams, which made me a fluent speaker of English. I like outdoor activities like jogging, hiking or cycling and am interested in history, photography and contributing to <a href='https://de.wikipedia.org/wiki/Benutzerin:Anszu'>Wikipedia</a>. In 2016 I finished my part time studies of journalism at the <a href='http://www.freie-journalistenschule.de/' target='_blank'>FJS Berlin</a>."
+    },
+    "footer" : {
+        "title": "Anika Szuppa - 2019",
+        "content": "Find the code for this CV on Github!"
+    }
+}
+
+
