@@ -5,12 +5,15 @@ const styles = theme => ({
     classContainer: {
         marginBottom: theme.margin30
     },
-    classCompany: {
-        display: 'flex',
-        justifyContent: 'space-between'
-    },
     classImg: {
-        width: theme.companyLogoWidth
+        width: theme.companyLogoWidth,
+        marginTop: theme.margin20
+    },
+    [`@media (min-width: ${theme.breakTablet})`]: {
+        classCompany: {
+            display: 'flex',
+            justifyContent: 'space-between'
+        }
     }
 });
 

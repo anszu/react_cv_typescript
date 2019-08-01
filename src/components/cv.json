@@ -22,12 +22,12 @@
     "tldr": {
         "title": "Tldr;",
         "content": [{
-            "title": "Experience",
+            "title": "Professional experience",
             "content": "10+ years" },{
             "title": "Basics",
-            "content": "HTML, CSS (SASS, SCSS), JavaScript (ES6+)" },{
+            "content": "HTML, CSS (SASS, SCSS, JSS, CSS Modules), JavaScript (ES6+)" },{
             "title": "JS Frameworks",
-            "content": "React (2+ years)" },{
+            "content": "React (3+ years)" },{
             "title": "Testing",
             "content": "Pytest, Jest, Storybook" },{
             "title": "Methodologies",

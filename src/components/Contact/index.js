@@ -2,9 +2,11 @@ import React from 'react';
 import injectSheet from 'react-jss';
 
 const styles = theme => ({
-    classContact: {
-        display: 'flex',
-        justifyContent: 'space-evenly'
+    [`@media (min-width: ${theme.breakTablet})`]: {
+        classContact: {
+            display: 'flex',
+            justifyContent: 'space-evenly'
+        }
     }
 });
 

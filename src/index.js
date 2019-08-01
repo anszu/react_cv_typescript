@@ -6,6 +6,8 @@ import { ThemeProvider } from 'react-jss';
 const theme = {
     margin40: '40px',
     margin30: '30px',
+    margin20: '20px',
+    margin10: '10px',
     font36: '36px',
     font28: '28px',
     font18: '18px',
@@ -21,7 +23,8 @@ const theme = {
     colorDescription: '#69696c',
     colorDescriptionBar: '#eeeeee',
     fontRegular: 'Helvetica Neue, Helvetica, Arial, sans-serif',
-    fontTldr: 'Consolas, Liberation Mono, Menlo, Courier, monospace'
+    fontTldr: 'Consolas, Liberation Mono, Menlo, Courier, monospace',
+    breakTablet: '728px'
 };
 
 ReactDOM.render(

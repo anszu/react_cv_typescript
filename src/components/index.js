@@ -23,9 +23,9 @@ const styles = theme => ({
         body: {
             color: theme.colorText,
             fontFamily: theme.fontRegular,
-            paddingTop: theme.margin30,
-            paddingBottom: theme.margin30,
-            fontSize: theme.font14
+            padding: `${theme.margin30} ${theme.margin20}`,
+            fontSize: theme.font14,
+            lineHeight: '1.5'
         },
         h1: {
             letterSpacing: theme.spacing7,
@@ -50,7 +50,9 @@ const styles = theme => ({
         },
         hr: {
             marginTop: theme.margin30,
-            marginBottom: theme.margin30
+            marginBottom: theme.margin30,
+            border: 0,
+            borderTop: '1px solid rgba(0,0,0,.1)'
         },
         header: {
             textAlign: 'center'
@@ -62,8 +64,12 @@ const styles = theme => ({
     },
     'container': {
         marginRight: 'auto',
-        marginLeft: 'auto',
-        width: theme.containerWidth
+        marginLeft: 'auto'
+    },
+    [`@media (min-width: ${theme.breakTablet})`]: {
+        container: {
+            width: theme.containerWidth
+        }
     }
 });
 

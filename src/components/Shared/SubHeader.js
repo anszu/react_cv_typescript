@@ -3,9 +3,7 @@ import injectSheet from 'react-jss';
 
 const styles = theme => ({
     classHeader: {
-        display: 'flex',
-        marginBottom: theme.margin30,
-        marginTop: theme.margin30
+        display: 'flex'
     },
     classIcon: {
         width: theme.iconWidth,
@@ -14,6 +12,12 @@ const styles = theme => ({
     },
     classIconContainer: {
         alignSelf: 'center'
+    },
+    [`@media (min-width: ${theme.breakTablet})`]: {
+        classHeader: {
+            marginBottom: theme.margin30,
+            marginTop: theme.margin30
+        }
     }
 });
 
