@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Footer = ({ title, data }) => {
+const Footer = ({ data }) => {
     return (
         <footer>
             <hr/>
-            {title} - {data}
+            <span dangerouslySetInnerHTML={{ __html: data }} />
         </footer>
     );
 };

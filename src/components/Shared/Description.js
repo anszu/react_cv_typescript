@@ -10,11 +10,11 @@ const styles = theme => ({
     }
 });
 
-const Description = ({ desc, classes }) => {
+const Description = ({ data, classes }) => {
     const { classDesc } = classes;
     return (
         <p className={classDesc}>
-            {desc}
+            <span dangerouslySetInnerHTML={{ __html: data }} />
         </p>
     );
 };

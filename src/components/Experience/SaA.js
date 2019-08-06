@@ -1,26 +1,13 @@
 import React from 'react';
-import injectSheet from 'react-jss';
+import List from '../Shared/List';
 
-const styles = theme => ({
-    classList: {
-        marginBottom: 0
-    }
-});
-
-const SaA = ({ title, data, classes }) => {
-    const { classList } = classes;
+const SaA = ({ title, data }) => {
     return (
         <div>
             <h4>{title}</h4>
-            <ul className={classList}>
-                { data.map((item, id) =>
-                    <li key={id}><span dangerouslySetInnerHTML={{ __html: item }}/></li>
-                )}
-            </ul>
+            <List data={data}/>
         </div>
     );
 };
 
-const StyledSaA = injectSheet(styles)(SaA);
-
-export default StyledSaA;
+export default SaA;

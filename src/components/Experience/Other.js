@@ -1,4 +1,5 @@
 import React from 'react';
+import List from '../Shared/List';
 
 const Other = ({ title, data }) => {
     return (
@@ -7,11 +8,7 @@ const Other = ({ title, data }) => {
             { data && data.map((item, id) =>
                 (<div key={id}>
                     <h4>{item.title}</h4>
-                    <ul>
-                        { item.content.map((el, i) =>
-                            <li key={i}><span dangerouslySetInnerHTML={{ __html: el }}/></li>
-                        )}
-                    </ul>
+                    <List data={item.data}/>
                 </div>)
             )}
         </div>

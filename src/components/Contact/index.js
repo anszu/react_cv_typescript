@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from './Link';
 import injectSheet from 'react-jss';
 
 const styles = theme => ({
@@ -7,15 +8,30 @@ const styles = theme => ({
             display: 'flex',
             justifyContent: 'space-evenly'
         }
+    },
+    classAddress: {
+        marginBottom: theme.margin30
     }
 });
 
-const Contact = ({ children, classes }) => {
-    const { classContact } = classes;
+const Contact = ({ address, links, classes }) => {
+    const { classContact, classAddress } = classes;
     return (
-        <div className={classContact}>
-            {children}
-        </div>
+        <>
+            <div className={classContact}>
+                <span>
+                    {address.map((item, id) =>
+                        <div key={id}>{item}</div>
+                    )}
+                </span>
+                <span className={classAddress}>
+                    {links.map((item, id) =>
+                        <Link key={id} link={item.link} title={item.title}/>
+                    )}
+                </span>
+            </div>
+            <hr/>
+        </>
     );
 };
 
