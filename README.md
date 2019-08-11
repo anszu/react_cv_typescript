@@ -13,3 +13,5 @@ CV template written in React, featuring JSS styling and Storybook integration
         // softSkills: {},
         // interests: {},
         // footer: {} };
+
+https://brave-wilson-94a2e8.netlify.com
