@@ -1,8 +1,7 @@
-# React CV template
+# React CV Template
 
-This repo contains the template I'm using for [my own CV](https://anszu.github.io/).
-As a CV is a pretty static document it might be questionable to make a React setup out of it. The reason I did it anyway is basically because I wanted to have it very modular and I wanted to work with a couple of concepts and techniques here, namely
-JSS in React, JSS theming and Storybook integration.
+This repository contains the template I'm using for [my own CV](https://anszu.github.io/).
+As a CV is a pretty static document it might be questionable to make a React setup out of it. The reason I did it anyway is basically because I wanted to have it very modular and I wanted to work with a couple of concepts and techniques here, namely [JSS in React](https://cssinjs.org/react-jss), [JSS theming](https://cssinjs.org/react-jss/?v=v10.0.0-alpha.23#theming) and [Storybook](https://storybook.js.org/docs/guides/guide-react/) integration.
 
 ## Getting Started
 
@@ -10,8 +9,8 @@ JSS in React, JSS theming and Storybook integration.
 2. Make sure Git is [installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 3. Clone Repo with ```git clone git@github.com:anszu/react_cv.git```
 4. Install packages with ```npm install```
-5. Edit [your_cv_here.json](https://github.com/anszu/react_cv/blob/master/src/your_cv_here.json)
-6. Run with ```npm run start```
+5. Edit [your_cv_here.json](https://github.com/anszu/react_cv/blob/master/src/your_cv_here.json) - [find out how](https://github.com/anszu/react_cv/blob/master/README.md#data) or get a dummy data view first and ...
+6. ...run with ```npm run start```
 7. For an overview about the involved components run storybook with ```npm run storybook```
 
 ## Data
