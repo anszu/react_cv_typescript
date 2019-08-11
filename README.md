@@ -71,7 +71,7 @@ _Data used to display introductional greeting in Greeting component_
 
 _Data used to display "Too long, dind't read" summary of CV in Tldr component_
 
-**Component**: [src/components/Tldr](https://github.com/anszu/react_cv/blob/master/src/components/Tldr/) 
+**Component**: [src/components/Tldr](https://github.com/anszu/react_cv/blob/master/src/components/Tldr/)  
 **expects**: ```Object```, tldr.data expects ```Array``` of ```Objects```
 
 ```json
@@ -85,7 +85,7 @@ _Data used to display "Too long, dind't read" summary of CV in Tldr component_
 
 _Data used to display overview of professional experience in Experience component_
 
-**Component**: [src/components/Experience](https://github.com/anszu/react_cv/blob/master/src/components/Experience/) 
+**Component**: [src/components/Experience](https://github.com/anszu/react_cv/blob/master/src/components/Experience/)  
 **expects**: ```Object```, experience.data expects ```Array``` of ```Objects```, achievements expects ```Object```, achievements.data expects ```Array``` 
 
 ```json
@@ -123,7 +123,7 @@ _Data used to display overview of professional experience in Experience componen
 
 _Data used to display other work related experience in Other component_
 
-**Component**: [src/components/Other.js](https://github.com/anszu/react_cv/blob/master/src/components/Other.js) 
+**Component**: [src/components/Other.js](https://github.com/anszu/react_cv/blob/master/src/components/Other.js)  
 **expects**: ```Object```, other.data expects ```Array``` of ```Objects```, other.data.data expects ```Array```
 
 ```json
@@ -137,7 +137,7 @@ _Data used to display other work related experience in Other component_
 
 _Data used to display history of education in Education component_
 
-**Component**: [src/components/Education.js](https://github.com/anszu/react_cv/blob/master/src/components/Education.js) 
+**Component**: [src/components/Education.js](https://github.com/anszu/react_cv/blob/master/src/components/Education.js)  
 **expects**: ```Object```, education.data expects ```Array``` of ```Objects```
 
 ```json
@@ -153,7 +153,7 @@ _Data used to display history of education in Education component_
 
 _Data used to display list of soft skills in SoftSkills component_
 
-**Component**: [src/components/SoftSkills.js](https://github.com/anszu/react_cv/blob/master/src/components/SoftSkills.js) 
+**Component**: [src/components/SoftSkills.js](https://github.com/anszu/react_cv/blob/master/src/components/SoftSkills.js)  
 **expects**: ```Object```, data expects ```Array```
 
 ```json
@@ -168,7 +168,7 @@ _Data used to display list of soft skills in SoftSkills component_
 
 _Data used to display list of interests in Interests component_
 
-**Component**: [src/components/Interests.js](https://github.com/anszu/react_cv/blob/master/src/components/Interests.js) 
+**Component**: [src/components/Interests.js](https://github.com/anszu/react_cv/blob/master/src/components/Interests.js)  
 **expects**: ```Object```
 
 ```json
@@ -183,7 +183,7 @@ _Data used to display list of interests in Interests component_
 
 _Data used to display footer information in Footer component_
 
-**Component**: [src/components/Footer.js](https://github.com/anszu/react_cv/blob/master/src/components/Footer.js) 
+**Component**: [src/components/Footer.js](https://github.com/anszu/react_cv/blob/master/src/components/Footer.js)  
 **expects**: ```String```
 
 ```json
