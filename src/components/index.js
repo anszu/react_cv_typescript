@@ -13,40 +13,23 @@ import SubHeader from './Shared/SubHeader';
 import injectSheet from 'react-jss';
 import styles from '../jssDefaultStyles.js';
 import PropTypes from 'prop-types';
+import cv from './cv.json';
 
 class App extends Component {
     constructor (props) {
         super();
         this.state = {
-            header: {},
-            address: [],
-            links: [],
-            greeting: '',
-            tldr: {},
-            experience: {},
-            other: {},
-            education: {},
-            softSkills: {},
-            interests: {},
-            footer: {} };
-    }
-
-    componentDidMount () {
-        fetch('./src/components/cv.json')
-            .then(res => res.json())
-            .then(json => this.setState({
-                header: json.header,
-                address: json.address,
-                links: json.links,
-                greeting: json.greeting,
-                tldr: json.tldr,
-                experience: json.experience,
-                other: json.other,
-                education: json.education,
-                softSkills: json.softSkills,
-                interests: json.interests,
-                footer: json.footer
-            }));
+            header: cv.header,
+            address: cv.address,
+            links: cv.links,
+            greeting: cv.greeting,
+            tldr: cv.tldr,
+            experience: cv.experience,
+            other: cv.other,
+            education: cv.education,
+            softSkills: cv.softSkills,
+            interests: cv.interests,
+            footer: cv.footer };
     }
 
     render () {
