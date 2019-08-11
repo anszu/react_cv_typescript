@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classEducation: {
@@ -25,5 +26,12 @@ const Education = ({ data, children, classes }) => {
 };
 
 const StyledEducation = injectSheet(styles)(Education);
+
+// prop definitions
+Education.propTypes = {
+    data: PropTypes.array,
+    classes: PropTypes.object,
+    children: PropTypes.object
+};
 
 export default StyledEducation;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from './Link';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     [`@media (min-width: ${theme.breakTablet})`]: {
@@ -36,5 +37,12 @@ const Contact = ({ address, links, classes }) => {
 };
 
 const StyledContact = injectSheet(styles)(Contact);
+
+// prop definitions
+Contact.propTypes = {
+    address: PropTypes.array,
+    links: PropTypes.array,
+    classes: PropTypes.object
+};
 
 export default StyledContact;

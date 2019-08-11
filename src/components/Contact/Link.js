@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classTitle: {
@@ -19,5 +20,12 @@ const Link = ({ link, title, classes }) => {
 };
 
 const StyledLink = injectSheet(styles)(Link);
+
+// prop definitions
+Link.propTypes = {
+    link: PropTypes.string,
+    title: PropTypes.string,
+    classes: PropTypes.object
+};
 
 export default StyledLink;

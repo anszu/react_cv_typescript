@@ -1,5 +1,6 @@
 import React from 'react';
 import TldrItem from './TldrItem';
+import PropTypes from 'prop-types';
 
 const Tldr = ({ data, children }) => {
     return (
@@ -10,6 +11,12 @@ const Tldr = ({ data, children }) => {
             )}
         </div>
     );
+};
+
+// prop definitions
+Tldr.propTypes = {
+    data: PropTypes.array,
+    children: PropTypes.object
 };
 
 export default Tldr;

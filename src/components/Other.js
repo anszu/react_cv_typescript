@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './Shared/List';
+import PropTypes from 'prop-types';
 
 const Other = ({ title, data }) => {
     return (
@@ -13,6 +14,12 @@ const Other = ({ title, data }) => {
             )}
         </div>
     );
+};
+
+// prop definitions
+Other.propTypes = {
+    title: PropTypes.string,
+    data: PropTypes.array
 };
 
 export default Other;

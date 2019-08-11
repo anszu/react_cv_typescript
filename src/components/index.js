@@ -12,6 +12,7 @@ import Footer from './Footer.js';
 import SubHeader from './Shared/SubHeader';
 import injectSheet from 'react-jss';
 import styles from '../jssDefaultStyles.js';
+import PropTypes from 'prop-types';
 
 class App extends Component {
     constructor (props) {
@@ -77,5 +78,10 @@ class App extends Component {
 }
 
 const StyledApp = injectSheet(styles)(App);
+
+// prop definitions
+App.propTypes = {
+    classes: PropTypes.object
+};
 
 export default StyledApp;

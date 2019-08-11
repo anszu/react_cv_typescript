@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classContainer: {
@@ -35,5 +36,16 @@ const Company = ({ title, company, logo, companyLink, location, period, classes 
 };
 
 const StyledCompany = injectSheet(styles)(Company);
+
+// prop definitions
+Company.propTypes = {
+    title: PropTypes.string,
+    company: PropTypes.string,
+    logo: PropTypes.string,
+    companyLink: PropTypes.string,
+    location: PropTypes.string,
+    period: PropTypes.string,
+    classes: PropTypes.object
+};
 
 export default StyledCompany;

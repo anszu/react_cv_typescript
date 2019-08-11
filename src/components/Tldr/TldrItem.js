@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classTldr: {
@@ -23,5 +24,12 @@ const TldrItem = ({ data, title, classes }) => {
 };
 
 const StyledTldrItem = injectSheet(styles)(TldrItem);
+
+// prop definitions
+TldrItem.propTypes = {
+    data: PropTypes.string,
+    title: PropTypes.string,
+    classes: PropTypes.object
+};
 
 export default StyledTldrItem;

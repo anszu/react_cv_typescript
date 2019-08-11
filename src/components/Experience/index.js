@@ -2,9 +2,9 @@ import React from 'react';
 import Company from './Company';
 import Description from '../Shared/Description';
 import SaA from './SaA';
+import PropTypes from 'prop-types';
 
 const Experience = ({ data, children }) => {
-    console.log(data);
     return (
         <div>
             {children}
@@ -23,6 +23,12 @@ const Experience = ({ data, children }) => {
             )}
         </div>
     );
+};
+
+// prop definitions
+Experience.propTypes = {
+    data: PropTypes.array,
+    children: PropTypes.object
 };
 
 export default Experience;

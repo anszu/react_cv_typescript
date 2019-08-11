@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classGreeting: {
@@ -27,5 +28,11 @@ const Greeting = ({ data, classes }) => {
 };
 
 const StyledGreeting = injectSheet(styles)(Greeting);
+
+// prop definitions
+Greeting.propTypes = {
+    data: PropTypes.string,
+    classes: PropTypes.object
+};
 
 export default StyledGreeting;

@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classDesc: {
@@ -20,5 +21,11 @@ const Description = ({ data, classes }) => {
 };
 
 const StyledDescription = injectSheet(styles)(Description);
+
+// prop definitions
+Description.propTypes = {
+    data: PropTypes.string,
+    classes: PropTypes.object
+};
 
 export default StyledDescription;

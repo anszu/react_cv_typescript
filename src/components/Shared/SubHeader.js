@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classHeader: {
@@ -26,5 +27,12 @@ const SubHeader = ({ title, img, classes }) => {
 };
 
 const StyledSubHeader = injectSheet(styles)(SubHeader);
+
+// prop definitions
+SubHeader.propTypes = {
+    title: PropTypes.string,
+    img: PropTypes.string,
+    classes: PropTypes.object
+};
 
 export default StyledSubHeader;

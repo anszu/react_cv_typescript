@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import PropTypes from 'prop-types';
 
 const styles = theme => ({
     classSubtitle: {
@@ -22,5 +23,11 @@ const Header = ({ data, classes }) => {
 };
 
 const StyledHeader = injectSheet(styles)(Header);
+
+// prop definitions
+Header.propTypes = {
+    data: PropTypes.object,
+    classes: PropTypes.object
+};
 
 export default StyledHeader;
