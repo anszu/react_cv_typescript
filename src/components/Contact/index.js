@@ -20,14 +20,14 @@ const Contact = ({ address, links, classes }) => {
     return (
         <>
             <div className={classContact}>
-                <span>
-                    {address.map((item, id) =>
-                        <div key={id}>{item}</div>
-                    )}
-                </span>
                 <span className={classAddress}>
                     {links.map((item, id) =>
                         <Link key={id} link={item.link} title={item.title}/>
+                    )}
+                </span>
+                <span>
+                    {address.map((item, id) =>
+                        <div key={id}>{item}</div>
                     )}
                 </span>
             </div>

@@ -1,4 +1,4 @@
 node_modules
 .DS_Store
-src/components/cv.json
+storybook-static
 build/

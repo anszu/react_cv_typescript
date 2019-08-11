@@ -1,0 +1,94 @@
+{
+    "header": {
+        "name": "Anna Smith",
+        "title": "Engineer"
+    },
+    "address": ["Anna Smith", "*20.03.1992", "Gasse 1", "12345 Munich", "+49 4387358945945"],
+    "links": [{
+        "link": "http://google.com",
+        "title": "Website" }, {
+        "link": "mailto:info@annasmith.de",
+        "title": "Email" }],
+    "greeting": "Hi I'm Anna, I have to pay my bills and therefore looking for a job that's not to stressfull and where I can easily spent time to score up my online games and pimp my instragram account with pictures of the food I had for lunch.",
+    "tldr": {
+        "title": "Tldr;",
+        "data": [{
+            "title": "Professional experience",
+            "data": "5+ years" }, {
+            "title": "Programming",
+            "data": "HTML, CSS, JavaScript" }]
+    },
+    "experience": {
+        "title": "Work history",
+        "img": "experience.png",
+        "data": [{
+            "title": "Engineer",
+            "company": "Google",
+            "logo": "google.png",
+            "company_link": "https://www.google.com",
+            "location": "Berlin (Germany)",
+            "period": "May 2010 – May 2015",
+            "description": "I had a great time working for Google.",
+            "achievements": {
+                "title": "Strengths and achievements:",
+                "data": ["Coding cool stuff", "Coding more cool stuff", "Throwing cool coded stuff away and code it again"]
+            } }, {
+            "title": "Junior Engineer",
+            "company": "Microsoft",
+            "logo": "microsoft.png",
+            "company_link": "https://www.microsoft.com",
+            "location": "Redmond (US)",
+            "period": "May 2008 – May 2010",
+            "description": "I had a great time working for Microsoft.",
+            "achievements": {
+                "title": "Strengths and achievements:",
+                "data": ["Coding cool stuff", "Coding more cool stuff", "Throwing cool coded stuff away and code it again"]
+            } }]
+    },
+    "other": {
+        "title": "Internships and other relevant work experience",
+        "data": [{
+            "title": "Part-time work",
+            "data": [
+                "12/2004 to 04/2008 MacDonalds : Customer Service"
+            ] }, {
+            "title": "Internships",
+            "data": [
+                "04/2005 to 09/2005 Internet Solutions Group: Webdevelopment, Webdesign",
+                "01/2003 to 06/2003 Some great Agency: Web Development"
+            ] }]
+    },
+    "education": {
+        "title": "Education",
+        "img": "education.png",
+        "data": [
+            {
+                "title": "Degree",
+                "institute": "University of Berlin",
+                "link": "http://en.wikipedia.org",
+                "period": "January 2016",
+                "location": "Berlin (Germany)" },
+            {
+                "title": "Master",
+                "institute": "University of Munich",
+                "link": "http://en.wikipedia.org",
+                "period": "January 2010",
+                "location": "Munich (Germany)" }
+        ]
+    },
+    "softSkills": {
+        "title": "Soft Skills",
+        "img": "softSkills.png",
+        "data": ["business fluency in english", "hard worker", "very social"]
+    },
+    "interests": {
+        "title": "Interests",
+        "img": "interests.png",
+        "data": "I love ice-cream, cakes, muffins and pizza. My favourite color is black. In my spare time I read Stephen King."
+    },
+    "footer" : {
+        "data": "Anna Smith - 2019"
+    }
+}
+
+

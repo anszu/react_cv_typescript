@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 
@@ -17,10 +17,18 @@ const styles = theme => ({
 });
 
 const SubHeader = ({ title, img, classes }) => {
+    const [imgSrc, setImageSrc] = useState('');
     const { classHeader, classIcon, classIconContainer } = classes;
+
+    if (imgSrc === '' && img) {
+        import(`../../img/${img}`).then(image => {
+            setImageSrc(image);
+        });
+    }
+
     return (
         <span className={classHeader}>
-            <span className={classIconContainer}>{img && <img className={classIcon} src={img}/>}</span>
+            <span className={classIconContainer}>{imgSrc && <img className={classIcon} src={imgSrc.default}/>}</span>
             <h2>{title}</h2>
         </span>
     );

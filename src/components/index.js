@@ -13,7 +13,7 @@ import SubHeader from './Shared/SubHeader';
 import injectSheet from 'react-jss';
 import styles from '../jssDefaultStyles.js';
 import PropTypes from 'prop-types';
-import cv from './cv.json';
+import cv from '../cv.json';
 
 class App extends Component {
     constructor (props) {

@@ -8,7 +8,7 @@ const tldr = [{
     title: 'Professional experience',
     data: '5+ years' }, {
     title: 'Programming',
-    data: "HTML, CSS, JavaScript" }];
+    data: 'HTML, CSS, JavaScript' }];
 
 storiesOf('Tldr', module)
     .add('all info', () => <App><Tldr data={tldr}/></App>)

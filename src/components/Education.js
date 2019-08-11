@@ -17,7 +17,7 @@ const Education = ({ data, children, classes }) => {
                 (<div key={id} className={classEducation}>
                     <h3>{item.title}</h3>
                     <a href={item.link}>{item.institute}</a>
-                    <div>{item.date}</div>
+                    <div>{item.period}</div>
                     <div>{item.location}</div>
                 </div>)
             )}

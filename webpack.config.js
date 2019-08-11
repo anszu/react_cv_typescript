@@ -15,6 +15,15 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: ['babel-loader', 'eslint-loader']
+            },
+            {
+                test: /\.(jpg|png|gif)$/,
+                use: {
+                    loader: "url-loader",
+                    options: {
+                        limit: 25000
+                    }
+                }
             }
         ]
     },
