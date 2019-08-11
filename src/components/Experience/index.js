@@ -2,9 +2,9 @@ import React from 'react';
 import Company from './Company';
 import Description from '../Shared/Description';
 import SaA from './SaA';
-import Other from './Other';
 
-const Experience = ({ data, otherTitle, otherData, children }) => {
+const Experience = ({ data, children }) => {
+    console.log(data);
     return (
         <div>
             {children}
@@ -21,7 +21,6 @@ const Experience = ({ data, otherTitle, otherData, children }) => {
                     <hr/>
                 </span>)
             )}
-            <Other title={otherTitle} data={otherData}/>
         </div>
     );
 };

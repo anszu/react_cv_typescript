@@ -28,7 +28,7 @@ const Company = ({ title, company, logo, companyLink, location, period, classes 
                     <div>{location}</div>
                     <div>{period}</div>
                 </div>
-                {logo && <a href={companyLink} target="_blank"><img className={classImg} src={'./img/' + logo}/></a>}
+                {logo && <a href={companyLink} target="_blank"><img className={classImg} src={logo}/></a>}
             </div>
         </div>
     );

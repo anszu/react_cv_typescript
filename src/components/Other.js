@@ -1,5 +1,5 @@
 import React from 'react';
-import List from '../Shared/List';
+import List from './Shared/List';
 
 const Other = ({ title, data }) => {
     return (

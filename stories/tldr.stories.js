@@ -6,9 +6,9 @@ import Tldr from '../src/components/Tldr';
 
 const tldr = [{
     title: 'Professional experience',
-    content: '5+ years' }, {
+    data: '5+ years' }, {
     title: 'Programming',
-    content: "HTML, CSS, JavaScript" }];
+    data: "HTML, CSS, JavaScript" }];
 
 storiesOf('Tldr', module)
     .add('all info', () => <App><Tldr data={tldr}/></App>)

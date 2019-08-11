@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Greeting from './Greeting.js';
 import Tldr from './Tldr';
 import Experience from './Experience';
+import Other from './Other.js';
 import Education from './Education.js';
 import SoftSkills from './SoftSkills.js';
 import Interests from './Interests.js';
@@ -56,10 +57,10 @@ class App extends Component {
                 <Tldr data={this.state.tldr.data}>
                     <SubHeader title={this.state.tldr.title}/>
                 </Tldr>
-                <Experience data={this.state.experience.data}
-                    otherTitle={this.state.other.title} otherData={this.state.other.data}>
+                <Experience data={this.state.experience.data}>
                     <SubHeader title={this.state.experience.title} img={this.state.experience.img}/>
                 </Experience>
+                <Other data={this.state.other.data} title={this.state.other.title}/>
                 <Education data={this.state.education.data}>
                     <SubHeader title={this.state.education.title} img={this.state.education.img}/>
                 </Education>

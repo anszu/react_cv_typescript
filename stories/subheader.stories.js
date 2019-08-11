@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import App from './StoryBookWrapper';
 import SubHeader from '../src/components/Shared/SubHeader';
-import img from '../img/experience.png';
+import img from './img/experience.png';
 
 const title = 'History';
 

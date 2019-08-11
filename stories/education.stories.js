@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import App from './StoryBookWrapper';
 import Education from '../src/components/Education';
 
-const edObj = {
+const education = {
     title: 'Degree',
     institute: 'University of Berlin',
     link: 'http://en.wikipedia.org',
@@ -12,7 +12,7 @@ const edObj = {
     location: 'Berlin (Germany)' };
 
 storiesOf('Education', module)
-    .add('all info', () => <App><Education data={[{ ...edObj }, { ...edObj }]}/></App>)
-    .add('no title', () => <App><Education data={[{ ...edObj, title: '' }]}/></App>)
-    .add('several data missing', () => <App><Education data={[{ ...edObj, link: '', date: '' }]}/></App>)
+    .add('all info', () => <App><Education data={[{ ...education }, { ...education }]}/></App>)
+    .add('no title', () => <App><Education data={[{ ...education, title: '' }]}/></App>)
+    .add('several data missing', () => <App><Education data={[{ ...education, link: '', date: '' }]}/></App>)
     .add('no data', () => <App><Education data={[]}/></App>);
