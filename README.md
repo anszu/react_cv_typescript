@@ -189,6 +189,41 @@ _Data used to display footer information in Footer component_
 "footer": ""
 ```
 
+## Styling
+
+For styling JSS is used.
+To enable theming [jssDefaultTheme.js](https://github.com/anszu/react_cv/blob/master/src/jssDefaultTheme.js) is set up, including a theme object with colors, font-sizes, margins and so on. Default styles are included in [jssDefaultSytles.js](https://github.com/anszu/react_cv/blob/master/src/jssDefaultStyles.js) and imported by the [App](https://github.com/anszu/react_cv/blob/master/src/components/index.js)component.
+Individual component styles are defined in every component.
+Example usage based on [Description](https://github.com/anszu/react_cv/blob/master/src/components/Shared/Description.js) component:
+
+```javascript
+import React from 'react';
+import injectSheet from 'react-jss';
+
+const styles = theme => ({
+    classDesc: {
+        marginLeft: theme.margin40,
+        marginBottom: theme.margin30,
+        ...
+    }
+});
+
+const Description = ({ data, classes }) => {
+    const { classDesc } = classes;
+    return (
+        <p className={classDesc}>
+            ...
+        </p>
+    );
+};
+
+const StyledDescription = injectSheet(styles)(Description);
+
+export default StyledDescription;
+
+```
+
+
 ## Storybook
 
 This is a modular CV template. A component libary showing all the modules involved, including different forms of presentation is added as Storybook setup and can be viewed [here](https://brave-wilson-94a2e8.netlify.com).
@@ -205,9 +240,7 @@ import { storiesOf } from '@storybook/react';
 import App from './StoryBookWrapper';
 import Footer from '../src/components/Footer';
 
-const footer = {
-    data: 'Anna Smith - 2019'
-};
+const footer = 'Anna Smith - 2019';
 
 storiesOf('Footer', module)
     .add('all info', () => <App><Footer data={footer.data}/></App>)
@@ -219,6 +252,3 @@ Build command Storybook: ```npm run build-storybook```
 Storybook Build Url: https://brave-wilson-94a2e8.netlify.com
 
 
-
-
-https://brave-wilson-94a2e8.netlify.com
