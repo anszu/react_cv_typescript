@@ -25,7 +25,6 @@ The following data structure is expected:
 _Data used to display CV Header in Header component_
 
 **Component**: [src/components/Header](https://github.com/anszu/react_cv/blob/master/src/components/Header.js)   
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/header--all-info    
 **expects**: ```Object```
 
 ```json
@@ -40,7 +39,6 @@ _Data used to display CV Header in Header component_
 _Data used to display address in Contact component_
 
 **Component**: [src/components/Contact/](https://github.com/anszu/react_cv/blob/master/src/components/Contact/)   
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/contact--just-address    
 **expects**: ```Array```
 
 ```json
@@ -52,7 +50,6 @@ _Data used to display address in Contact component_
 _Data used to display links in Contact component_
 
 **Component**: [src/components/Contact/](https://github.com/anszu/react_cv/blob/master/src/components/Contact/)  
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/contact--just-links  
 **expects**: ```Array``` of ```Objects```
 
 ```json
@@ -64,7 +61,6 @@ _Data used to display links in Contact component_
 _Data used to display introductional greeting in Greeting component_
 
 **Component**: [src/components/Greeting.js](https://github.com/anszu/react_cv/blob/master/src/components/Greeting.js)  
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/greeting--all-info  
 **expects**: ```String```
 
 ```json
@@ -76,7 +72,6 @@ _Data used to display introductional greeting in Greeting component_
 _Data used to display "Too long, dind't read" summary of CV in Tldr component_
 
 **Component**: [src/components/Tldr](https://github.com/anszu/react_cv/blob/master/src/components/Tldr/) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/tldr--all-info    
 **expects**: ```Object```, tldr.data expects ```Array``` of ```Objects```
 
 ```json
@@ -91,7 +86,6 @@ _Data used to display "Too long, dind't read" summary of CV in Tldr component_
 _Data used to display overview of professional experience in Experience component_
 
 **Component**: [src/components/Experience](https://github.com/anszu/react_cv/blob/master/src/components/Experience/) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/experience--all-info    
 **expects**: ```Object```, experience.data expects ```Array``` of ```Objects```, achievements expects ```Object```, achievements.data expects ```Array``` 
 
 ```json
@@ -130,7 +124,6 @@ _Data used to display overview of professional experience in Experience componen
 _Data used to display other work related experience in Other component_
 
 **Component**: [src/components/Other.js](https://github.com/anszu/react_cv/blob/master/src/components/Other.js) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/other--all-info    
 **expects**: ```Object```, other.data expects ```Array``` of ```Objects```, other.data.data expects ```Array```
 
 ```json
@@ -145,7 +138,6 @@ _Data used to display other work related experience in Other component_
 _Data used to display history of education in Education component_
 
 **Component**: [src/components/Education.js](https://github.com/anszu/react_cv/blob/master/src/components/Education.js) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/education--all-info   
 **expects**: ```Object```, education.data expects ```Array``` of ```Objects```
 
 ```json
@@ -162,7 +154,6 @@ _Data used to display history of education in Education component_
 _Data used to display list of soft skills in SoftSkills component_
 
 **Component**: [src/components/SoftSkills.js](https://github.com/anszu/react_cv/blob/master/src/components/SoftSkills.js) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/softskills--all-info   
 **expects**: ```Object```, data expects ```Array```
 
 ```json
@@ -178,7 +169,6 @@ _Data used to display list of soft skills in SoftSkills component_
 _Data used to display list of interests in Interests component_
 
 **Component**: [src/components/Interests.js](https://github.com/anszu/react_cv/blob/master/src/components/Interests.js) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/interests--all-info  
 **expects**: ```Object```
 
 ```json
@@ -194,7 +184,6 @@ _Data used to display list of interests in Interests component_
 _Data used to display footer information in Footer component_
 
 **Component**: [src/components/Footer.js](https://github.com/anszu/react_cv/blob/master/src/components/Footer.js) 
-**Storybook**: https://brave-wilson-94a2e8.netlify.com/?path=/story/footer--all-info  
 **expects**: ```String```
 
 ```json
