@@ -3,16 +3,24 @@ import Link from './Link';
 import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 
-const styles = theme => ({
-    [`@media (min-width: ${theme.breakTablet})`]: {
-        classContact: {
-            display: 'flex',
-            justifyContent: 'space-evenly'
-        }
+// defined seperately to be reused
+const desktopView = {
+    classContact: {
+        display: 'flex',
+        justifyContent: 'space-evenly'
     },
     classAddress: {
-        marginBottom: theme.margin30
+        marginTop: '0px'
     }
+};
+
+const styles = theme => ({
+    classAddress: {
+        display: 'block',
+        marginTop: theme.margin30
+    },
+    [`@media (min-width: ${theme.breakTablet})`]: desktopView,
+    [`@media print`]: desktopView
 });
 
 const Contact = ({ address, links, classes }) => {
@@ -20,12 +28,12 @@ const Contact = ({ address, links, classes }) => {
     return (
         <>
             <div className={classContact}>
-                <span className={classAddress}>
+                <span>
                     {links.map((item, id) =>
                         <Link key={id} link={item.link} title={item.title}/>
                     )}
                 </span>
-                <span>
+                <span className={classAddress}>
                     {address.map((item, id) =>
                         <div key={id}>{item}</div>
                     )}

@@ -2,6 +2,16 @@ import React, { useState } from 'react';
 import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 
+const desktopView = {
+    classCompany: {
+        display: 'flex',
+        justifyContent: 'space-between'
+    },
+    classImg: {
+        marginTop: 0
+    }
+};
+
 const styles = theme => ({
     classContainer: {
         marginBottom: theme.margin30
@@ -10,15 +20,8 @@ const styles = theme => ({
         width: theme.companyLogoWidth,
         marginTop: theme.margin20
     },
-    [`@media (min-width: ${theme.breakTablet})`]: {
-        classCompany: {
-            display: 'flex',
-            justifyContent: 'space-between'
-        },
-        classImg: {
-            marginTop: 0
-        }
-    }
+    [`@media (min-width: ${theme.breakTablet})`]: desktopView,
+    [`@media print`]: desktopView
 });
 
 const Company = ({ title, company, logo, companyLink, location, period, classes }) => {
