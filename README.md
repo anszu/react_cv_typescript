@@ -101,17 +101,6 @@ _Data used to display overview of professional experience in Experience componen
         "description": "",
         "achievements": {
             "title": "",
-            "data": ["", "", ""]},
-        {
-        "title": "",
-        "company": "",
-        "logo": "",
-        "company_link": "",
-        "location": "",
-        "period": "",
-        "description": "",
-        "achievements": {
-            "title": "",
             "data": ["", "", ""]}]
 }
 ```
