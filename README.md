@@ -99,9 +99,8 @@ _Data used to display overview of professional experience in Experience componen
         "location": "",
         "period": "",
         "description": "",
-        "achievements": {
-            "title": "",
-            "data": ["", "", ""]}]
+        "achievements": {"title": "", "data": ["", "", ""]}
+        }]
 }
 ```
 
