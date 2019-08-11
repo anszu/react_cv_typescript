@@ -101,8 +101,7 @@ _Data used to display overview of professional experience in Experience componen
         "description": "",
         "achievements": {
             "title": "",
-            "data": ["", "", ""]
-        },
+            "data": ["", "", ""]},
         {
         "title": "",
         "company": "",
@@ -113,8 +112,7 @@ _Data used to display overview of professional experience in Experience componen
         "description": "",
         "achievements": {
             "title": "",
-            "data": ["", "", ""]
-        }]
+            "data": ["", "", ""]}]
 }
 ```
 
@@ -192,8 +190,9 @@ _Data used to display footer information in Footer component_
 ## Styling
 
 For styling JSS is used.
-To enable theming [jssDefaultTheme.js](https://github.com/anszu/react_cv/blob/master/src/jssDefaultTheme.js) is set up, including a theme object with colors, font-sizes, margins and so on. Default styles are included in [jssDefaultSytles.js](https://github.com/anszu/react_cv/blob/master/src/jssDefaultStyles.js) and imported by the [App](https://github.com/anszu/react_cv/blob/master/src/components/index.js)component.
+To enable theming [jssDefaultTheme.js](https://github.com/anszu/react_cv/blob/master/src/jssDefaultTheme.js) is set up, including a theme object with colors, font-sizes, margins and so on. Default styles are included in [jssDefaultStyles.js](https://github.com/anszu/react_cv/blob/master/src/jssDefaultStyles.js) and imported by the [App](https://github.com/anszu/react_cv/blob/master/src/components/index.js)component.
 Individual component styles are defined in every component.
+
 Example usage based on [Description](https://github.com/anszu/react_cv/blob/master/src/components/Shared/Description.js) component:
 
 ```javascript
@@ -218,11 +217,8 @@ const Description = ({ data, classes }) => {
 };
 
 const StyledDescription = injectSheet(styles)(Description);
-
 export default StyledDescription;
-
 ```
-
 
 ## Storybook
 
