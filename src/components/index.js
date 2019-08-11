@@ -54,7 +54,7 @@ class App extends Component {
                 <Interests data={this.state.interests.data}>
                     <SubHeader title={this.state.interests.title} img={this.state.interests.img}/>
                 </Interests>
-                <Footer data={this.state.footer.data}/>
+                <Footer data={this.state.footer}/>
             </div>
         );
     }

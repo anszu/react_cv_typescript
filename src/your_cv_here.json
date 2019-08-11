@@ -9,7 +9,7 @@
         "title": "Website" }, {
         "link": "mailto:info@annasmith.de",
         "title": "Email" }],
-    "greeting": "Hi I'm Anna, I have to pay my bills and therefore looking for a job that's not to stressfull and where I can easily spent time to score up my online games and pimp my instragram account with pictures of the food I had for lunch.",
+    "greeting": "Hi I'm Anna, I have to pay my bills and am therefore looking for a job where I can easily spent time to score up my online games and pimp my instragram account with pictures of the food I had for lunch.",
     "tldr": {
         "title": "Tldr;",
         "data": [{
@@ -86,9 +86,7 @@
         "img": "interests.png",
         "data": "I love ice-cream, cakes, muffins and pizza. My favourite color is black. In my spare time I read Stephen King."
     },
-    "footer" : {
-        "data": "Anna Smith - 2019"
-    }
+    "footer" : "Anna Smith - 2019"
 }
 
 

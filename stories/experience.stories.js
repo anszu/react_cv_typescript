@@ -3,14 +3,11 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import App from './StoryBookWrapper';
 import Experience from '../src/components/Experience';
-import googleImg from './img/google.png';
-import microsoftImg from './img/microsoft.png';
-
 
 const experience = [{
     title: 'Engineer',
     company: 'Google',
-    logo: googleImg,
+    logo: 'google.png',
     company_link: 'https://www.google.com',
     location: 'Berlin (Germany)',
     period: 'May 2010 – May 2015',
@@ -21,7 +18,7 @@ const experience = [{
     } }, {
     title: 'Junior Engineer',
     company: 'Microsoft',
-    logo: microsoftImg,
+    logo: 'microsoft.png',
     company_link: 'https://www.microsoft.com',
     location: 'Redmond (US)',
     period: 'May 2008 – May 2010',
