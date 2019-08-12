@@ -3,7 +3,7 @@
 This repository contains the template I'm using for [my own CV](https://anszu.github.io/).
 As a CV is a pretty static document it might be questionable to make a React setup out of it. The reason I did it anyway is basically because I wanted to have it very modular and I wanted to work with a couple of concepts and techniques here, namely [JSS in React](https://cssinjs.org/react-jss), [JSS theming](https://cssinjs.org/react-jss/?v=v10.0.0-alpha.23#theming) and [Storybook](https://storybook.js.org/docs/guides/guide-react/) integration.
 
-![Screenshot](https://github.com/anszu/react_cv/blob/master/src/img/screen.png)
+![Screenshot](https://github.com/anszu/react_cv/blob/master/src/img/screenshot.png)
 
 ## Getting Started
 
