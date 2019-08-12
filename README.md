@@ -222,7 +222,6 @@ export default StyledDescription;
 This is a modular CV template. A component libary showing all the modules involved, including different forms of presentation is added as Storybook setup and can be viewed [here](https://brave-wilson-94a2e8.netlify.com).
 The code for the stories is located in the [stories](https://github.com/anszu/react_cv/tree/master/stories) folder.
 All Stories are wrapped with the ```StoryBookWrapper```component, that is imported as ```App```. This is simulating the ```App``` component, which is loading in the default styles for the HTML body, headings, links and so on. With the help of the ```StoryBookWrapper``` those styles are also being injected into all story components.
-Images that are used in stories are stored in [stories/img](https://github.com/anszu/react_cv/tree/master/stories/img).
 
 Example [Footer story](https://github.com/anszu/react_cv/blob/master/stories/footer.stories.js).
 
@@ -240,8 +239,8 @@ storiesOf('Footer', module)
     .add('no data', () => <App><Footer data={''}/></App>);
 ```
 
-Run command Storybook: ```npm run storybook```  
-Build command Storybook: ```npm run build-storybook```    
-Storybook Build Url: https://brave-wilson-94a2e8.netlify.com
+**Run command Storybook:** ```npm run storybook```  
+**Build command Storybook:** ```npm run build-storybook```    
+**Storybook Build Url:** https://brave-wilson-94a2e8.netlify.com
 
 
