@@ -32,7 +32,7 @@
     "storybook-addon-jss-theme": "^1.0.2",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^5.2.2"
   },
   "dependencies": {
     "jss": "^9.8.7",
